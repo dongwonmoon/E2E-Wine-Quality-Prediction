@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-10T04:24:14.750725","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-10T04:24:14.751575","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/wine_quality_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-10T04:24:17.136738Z","level":"info","event":"Preprocessing Data...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.166639Z","level":"info","event":"Original training set shape: good_quality","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.167329Z","level":"info","event":"0    1105","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.167777Z","level":"info","event":"1     174","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.168235Z","level":"info","event":"Name: count, dtype: int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.168601Z","level":"info","event":"Resampled training set shape: good_quality","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.169051Z","level":"info","event":"0    1105","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.169506Z","level":"info","event":"1    1105","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.170057Z","level":"info","event":"Name: count, dtype: int64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:24:17.226002","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

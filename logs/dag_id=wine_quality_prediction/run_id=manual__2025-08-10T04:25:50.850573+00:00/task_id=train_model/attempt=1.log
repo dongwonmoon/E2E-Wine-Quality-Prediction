@@ -1,0 +1,8 @@
+{"timestamp":"2025-08-10T04:25:58.932034","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-10T04:25:58.932617","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/wine_quality_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-10T04:26:00.411671Z","level":"info","event":"Training Model...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:26:04.947157Z","level":"error","event":"2025/08/10 04:26:04 WARNING mlflow.utils.autologging_utils: Encountered unexpected error during sklearn autologging: [Errno 13] Permission denied: '/mlruns'","chan":"stderr","logger":"task"}
+{"timestamp":"2025-08-10T04:26:05.059640Z","level":"info","event":"Model trained. Run ID: 3a61ffff503d4b7e83a59adeeb453aca","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:26:05.086166Z","level":"info","event":"🏃 View run unique-bug-961 at: http://mlflow-server:5000/#/experiments/1/runs/3a61ffff503d4b7e83a59adeeb453aca","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:26:05.086700Z","level":"info","event":"🧪 View experiment at: http://mlflow-server:5000/#/experiments/1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:26:05.108520","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

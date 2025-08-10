@@ -1,0 +1,5 @@
+{"timestamp":"2025-08-10T04:15:31.742432","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-10T04:15:31.743482","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/wine_quality_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-10T04:15:36.559888Z","level":"info","event":"Ingesting Data...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:15:37.606492Z","level":"info","event":"Data ingested and saved to /opt/airflow/data/winequality-red.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:15:37.607188","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

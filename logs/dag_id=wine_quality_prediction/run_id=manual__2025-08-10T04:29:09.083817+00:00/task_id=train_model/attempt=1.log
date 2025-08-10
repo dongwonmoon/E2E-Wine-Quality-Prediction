@@ -1,0 +1,8 @@
+{"timestamp":"2025-08-10T04:29:19.005880","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-10T04:29:19.006452","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/wine_quality_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-10T04:29:20.375624Z","level":"info","event":"Training Model...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:29:24.630519","level":"info","event":"generated new fontManager","logger":"matplotlib.font_manager"}
+{"timestamp":"2025-08-10T04:29:25.888585Z","level":"info","event":"Model trained. Run ID: 8b5f4836f45e42d1b5e89ad89b7224fa","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:29:25.914117Z","level":"info","event":"🏃 View run burly-skunk-961 at: http://mlflow-server:5000/#/experiments/1/runs/8b5f4836f45e42d1b5e89ad89b7224fa","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:29:25.914554Z","level":"info","event":"🧪 View experiment at: http://mlflow-server:5000/#/experiments/1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-10T04:29:25.933970","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

@@ -1,0 +1,6 @@
+FROM apache/airflow
+
+RUN pip install --no-cache-dir psycopg2-binary \
+    apache-airflow-providers-fab \
+    imblearn \
+    mlflow \
